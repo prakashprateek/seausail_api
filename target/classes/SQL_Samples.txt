@@ -1,0 +1,27 @@
+1. PRODUCT GALLERY
+    insert into productgallery
+    (created_by, is_deleted, is_inactive, is_thumbnail_image, modified_by,
+     productid, created_on, modified_on, image_path, product_gallery_id)
+    Values (2, 0, 0, 0, 2, 1, '2023-10-30 00:12:51.027901', '2023-10-30 00:12:51.027901', "path2", 100)
+
+2. PRICING
+    insert
+        into
+            pricing
+            (
+            created_by,
+            created_on,
+            is_deleted,
+            is_inactive,
+            modified_by,
+            modified_on,
+            percent_discount,
+            price_per_unit,
+            pricing_category,
+            pricing_type,
+            pricing_unit,
+            product_id,
+            pricing_id)
+        values
+            (2, '2023-10-31T10:57:43.566814', false, false, 2, '2023-10-31T10:57:43.566827', 0.11, 21.01, 'TIMEBLOCKS', 'RETAIL', 'HOURLY', 1, 1001)
+
